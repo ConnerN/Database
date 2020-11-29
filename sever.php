@@ -47,7 +47,6 @@
       $_SESSION['state'] = 0;
 //	echo"session state= " . $_SESSION['state'];
 
-       header('Location: http://web.engr.oregonstate.edu/~wuxiaoy/cs340/end/index.php')or die("failed to head");
 		} 
     else {
 			echo "failed";
